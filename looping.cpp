@@ -30,3 +30,8 @@ int isFibonacci(int n) {
     }
     return 0;
 }
+
+void inputData() {
+    cout << "Masukkan bilangan: ";
+    cin >> n;
+}
