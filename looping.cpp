@@ -35,3 +35,12 @@ void inputData() {
     cout << "Masukkan bilangan: ";
     cin >> n;
 }
+
+
+void outputPrima() {
+    if (isPrima(n) == 1) {
+    cout << n << " adalah bilangan prima.\n";
+    } else {
+    cout << n << " bukan bilangan prima.\n";
+    }
+}
