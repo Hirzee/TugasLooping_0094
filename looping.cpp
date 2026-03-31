@@ -48,4 +48,7 @@ void outputPrima() {
 void outputFibonacci() {
     if (isFibonacci(n) == 1) {
     cout << n << " termasuk bilangan Fibonacci.\n";
-   
+    } else {
+    cout << n << " bukan bilangan Fibonacci.\n";
+    }
+}
