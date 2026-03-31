@@ -71,3 +71,8 @@ int main() {
                 inputData();
                 outputPrima();
                 break;
+
+            case 2:
+                inputData();
+                outputFibonacci();
+                break;
