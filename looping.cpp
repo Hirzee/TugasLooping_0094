@@ -65,3 +65,6 @@ int main() {
     while (true) {
         tampilMenu();
         cin >> pilihan;
+
+        switch (pilihan) {
+  
