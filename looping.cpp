@@ -62,4 +62,6 @@ void tampilMenu() {
 }
 
 int main() {
- 
+    while (true) {
+        tampilMenu();
+        cin >> pilihan;
